@@ -4,9 +4,6 @@ dist/
 *.log
 npm-debug.log*
 
-# VitePress build
-docs/.vitepress/dist
-
 # System
 .DS_Store
 Thumbs.db
