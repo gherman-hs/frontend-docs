@@ -1,6 +1,7 @@
 export default {
   title: "Frontend Docs",
-  description: "Стандарты и гайды команды фронтенда",
+  description: "Frontend Docs",
+  base: '/frontend-docs/',
 
   themeConfig: {
     nav: [
