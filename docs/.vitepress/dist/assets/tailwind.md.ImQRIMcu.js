@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.VZAzRpJO.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tailwind.md","filePath":"tailwind.md"}'),n={name:"tailwind.md"};function i(r,o,s,c,d,l){return a(),e("div")}const m=t(n,[["render",i]]);export{_ as __pageData,m as default};
