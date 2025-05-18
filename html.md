@@ -1,10 +1,10 @@
 ## HTML
 
-- Избегать «div hell» — вложенность `<div><div><div>` не больше 2–3 уровней
-- Использовать семантические теги: `<section>`, `<nav>`, `<main>`, `<footer>`
+- Избегать «div hell» — вложенность <div><div><div> не больше 2–3 уровней
+- Использовать семантические теги: <section>, <nav>, <main>, <footer>
 - У изображений всегда должны быть width и height — предотвращает reflow
 - У изображений используется loading="lazy" (если они не на первом экране)
-- Избегать ngStyle с background-image — использовать `<img [src/ngSrc]>` с object-fit/fill
+- Избегать ngStyle с background-image — использовать <img [src/ngSrc]> с object-fit/fill
 - Присутствует 'loading="lazy"' для изображений
 
 ## CSS / SCSS
@@ -20,8 +20,8 @@
 ## Используй rem
 
 Переводи в rem все, кроме изображений и узко специфичных кейсов, а именно:
-- `font-size`, `line-height`
-- `padding`, `margin`, `gap`, `row-gap`, `column-gap`
+- font-size, line-height
+- padding, margin, gap, row-gap, column-gap
 - width, height, min-*, max-*
 - top, left, right, bottom
 - border-radius (кроме full)
@@ -75,11 +75,11 @@
 
 - В attr Angular нельзя передавать объекты — только строки (иначе будет [object Object])
 - ngClass, ngStyle — избегать функций и тернаров, используй attr
-- Закрывай тег `<img ... />` правильно `/>`
+- Закрывай тег <img ... /> правильно '/>'
 - избегать :nth-child() (сложный ререндер, специфичность)
-- Избегай 'background-image' в ngStyle, используй `<img>`
+- Избегай 'background-image' в ngStyle, используй <img>
 
-## `<button>`
+## <button>
 
 Поддерживает атрибут:
 - type="button" — по умолчанию (действие без формы)
@@ -89,7 +89,7 @@
 - Рекомендуется использовать для любых действий, не связанных с переходом по URL
 - Всегда явно указывай type — иначе submit по умолчанию
 
-<!-- ## <a>
+## <a>
 
 - Не поддерживает type — не пиши type="button" у <a>
 - type у <a> не имеет эффекта и не используется
@@ -100,7 +100,7 @@
 
 Если нужен внешний вид и поведение кнопки, но внутри <a>:
 - добавлять role="button" для доступности
-- обрабатывать событие click и делать event.preventDefault() при необходимости -->
+- обрабатывать событие click и делать event.preventDefault() при необходимости
 
 ## META
 
