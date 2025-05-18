@@ -2,15 +2,16 @@
   "name": "frontend-docs",
   "version": "1.0.0",
   "scripts": {
+    "prepare": "npm install vitepress",
     "docs:dev": "vitepress dev docs",
-    "docs:build": "node_modules/.bin/vitepress build docs",
+    "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
     "sass": "^1.89.0",
+    "sass-embedded": "^1.89.0",
     "tailwindcss": "^4.1.7",
-    "vitepress": "^1.6.3",
-    "sass-embedded": "^1.89.0"
+    "vitepress": "^1.6.3"
   }
 }
