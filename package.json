@@ -1,16 +1,11 @@
 {
   "name": "frontend-docs",
   "version": "1.0.0",
-  "description": "frontend-docs",
-  "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": [],
-  "author": "Gherman.T",
-  "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.6.3",
     "tailwindcss": "^4.1.7",
