@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-900 text-zinc-100;
+}
+
+a {
+  @apply text-cyan-400 hover:text-cyan-300 transition;
+}
